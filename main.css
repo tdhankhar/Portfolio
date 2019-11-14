@@ -1,16 +1,8 @@
 body{
-    background-color: #1a1a1a;
+    background-color: #0d0d0d;
 }
 .cover{
     margin-top: 50px;
-}
-.cover-pic{
-    margin: 0 100px;
-    box-shadow: 18px 18px #1a1a1a, 20px 20px #ff5757;
-}
-.cover-pic img{
-    width: 100%;
-    opacity: 0.5;
 }
 .cover-hd{
     color: whitesmoke;
@@ -49,4 +41,59 @@ body{
 .nav-link:hover{
     color: whitesmoke;
     box-shadow: inset 260px 0 0 0 #ff5757;
+}
+#resume{
+    background-image: url('resume-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#resume h5{
+    padding: 100px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: whitesmoke;
+    text-align: center;
+}
+#education h5{
+    padding: 100px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: whitesmoke;
+    text-align: center;
+}
+#skills{
+    background-color: #303030;
+}
+#skills h5{
+    padding: 100px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: whitesmoke;
+    text-align: center;
+}
+#projects h5{
+    padding: 100px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: whitesmoke;
+    text-align: center;
+}
+#about{
+    background-color: #303030;
+}
+#about h5{
+    padding: 100px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    background-color: #303030;
+    color: whitesmoke;
+    text-align: center;
+}
+#contact h5{
+    padding: 100px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
 }
